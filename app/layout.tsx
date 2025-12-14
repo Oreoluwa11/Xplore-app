@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <main className="py-30 md:py-20">
+        <main className="">
           {children}
         </main>
         <Footer />
@@ -38,3 +38,4 @@ export default function RootLayout({
     </html>
   );
 }
+//onSearch={(query) => console.log("Searching for:", query)} py-10 md:py-10

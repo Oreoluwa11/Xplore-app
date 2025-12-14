@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "name": "Ocean Basket Victoria Island",
+    "area": "Island",
+    "address": "Ahmadu Bello Way, Victoria Island, Lagos",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169",
+    "description": "Seafood restaurant with great ocean vibes.",
+    "budget": "30,000 NGN",
+    "details": "Ocean Basket is a popular seafood restaurant located in Victoria Island, Lagos. Known for its fresh seafood dishes and vibrant atmosphere, it offers a variety of options including sushi, grilled fish, and seafood platters. The restaurant features a modern interior with ocean-themed decor, creating a relaxing dining experience. Ocean Basket is ideal for both casual meals and special occasions, providing excellent service and a diverse menu that caters to different tastes. Whether you're craving sushi or a hearty seafood meal, Ocean Basket is a great choice for seafood lovers in Lagos."
+  },
+  {
+    "id": 2,
+    "name": "The Place Ikeja",
+    "area": "Mainland",
+    "address": "Isaac John Street, Ikeja GRA, Lagos",
+    "image": "https://images.unsplash.com/photo-1513442542250-854d436a73f2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=947",
+    "description": "Local favourite for mix of continental and local dishes.",
+    "budget": "30,000 NGN",
+    "details": "The Place Ikeja is a well-known restaurant located in Ikeja, Lagos. It is popular for its diverse menu that offers a mix of continental and local Nigerian dishes. The restaurant features a cozy and inviting atmosphere, making it a great spot for both casual dining and special occasions. The Place Ikeja is known for its friendly service and delicious food, with popular dishes including jollof rice, grilled chicken, and various seafood options. It also offers a selection of beverages and desserts to complement your meal. Whether you're looking for a quick lunch or a leisurely dinner, The Place Ikeja provides a satisfying dining experience in the heart of Lagos."
+  },
+  {
+    "id": 3,
+    "name": "RSVP Lagos",
+    "area": "Island",
+    "address": "Ozumba Mbadiwe Ave, Victoria Island, Lagos",
+    "image": "https://images.unsplash.com/photo-1651981075280-9a9e01acbff0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=713",
+    "description": "Upscale spot with modern cuisine.",
+    "budget": "Budget (Min): 50,000 NGN",
+    "details": "RSVP Lagos is an upscale restaurant located in Victoria Island, Lagos. Known for its modern cuisine and chic ambiance, it offers a sophisticated dining experience. The restaurant features a stylish interior with contemporary decor, creating an inviting atmosphere for guests. RSVP Lagos is renowned for its innovative menu that combines international flavors with local ingredients, offering dishes such as sushi, seafood, and gourmet entrees. The restaurant also boasts an extensive wine list and expertly crafted cocktails, making it a popular choice for special occasions and fine dining. With its exceptional service and elegant setting, RSVP Lagos provides a memorable culinary experience in the heart of Lagos."
+  },
+  {
+    "id": 4,
+    "name": "Yellow Chilli",
+    "area": "Mainland",
+    "address": "Joel Ogunaike St, Ikeja, Lagos",
+    "image": "https://images.unsplash.com/photo-1673185180955-bb5d3e6b2a51?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1827",
+    "description": "Celebrated Nigerian and African-inspired menu.",
+    "budget": "Budget (Min): 25,000 NGN",
+    "details": "Yellow Chilli is a renowned restaurant located in Ikeja, Lagos, known for its contemporary take on Nigerian and African cuisine. The restaurant offers a vibrant and stylish atmosphere, making it a popular choice for both casual dining and special occasions. Yellow Chilli's menu features a variety of traditional dishes with a modern twist, including favorites like jollof rice, pounded yam with egusi soup, and suya. The restaurant is also praised for its excellent service and attention to detail. With its flavorful dishes and inviting ambiance, Yellow Chilli provides a memorable dining experience that celebrates the rich culinary heritage of Nigeria."
+  },
+  {
+    "id": 5,
+    "name": "Bungalow Restaurant",
+    "area": "Island",
+    "address": "Victoria Island, Lagos",
+    "image": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=870",
+    "description": "Cozy spot for brunch and dinner.",
+    "budget": "Budget (Min): 35,000 NGN",
+    "details": "Bungalow Restaurant is a cozy and stylish dining spot located in Victoria Island, Lagos. Known for its inviting atmosphere and diverse menu, it offers a great setting for both brunch and dinner. The restaurant features a blend of contemporary and rustic decor, creating a warm and welcoming ambiance. Bungalow's menu includes a variety of dishes ranging from light bites to hearty meals, with options that cater to different tastes and dietary preferences. The restaurant is also appreciated for its quality coffee, cocktails, and desserts. With its friendly service and comfortable environment, Bungalow Restaurant provides a delightful dining experience in the heart of Lagos."
+  },
+  {
+    "id": 6,
+    "name": "Shiro Lagos",
+    "area": "Island",
+    "address": "Victoria Island, Lagos",
+    "image": "https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740",
+    "description": "Asian fusion restaurant with a lively bar.",
+    "budget": "Budget (Min): 60,000 NGN",
+    "details": "Shiro Lagos is a stylish Asian fusion restaurant located in Victoria Island, Lagos. Known for its vibrant atmosphere and contemporary design, Shiro offers a diverse menu that blends traditional Asian flavors with modern culinary techniques. The restaurant features a sushi bar, teppanyaki grills, and a variety of other Asian-inspired dishes, making it a popular choice for both casual dining and special occasions. Shiro Lagos is also recognized for its extensive cocktail menu and lively bar scene, providing an exciting nightlife experience. With its unique blend of flavors, chic ambiance, and excellent service, Shiro Lagos delivers a memorable dining experience in the heart of Lagos."
+  },
+  {
+    "id": 7,
+    "name": "Nkoyo",
+    "area": "Mainland",
+    "address": "Surulere",
+    "image": "https://images.unsplash.com/photo-1629471722874-13d4208d62ea?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1176",
+    "description": "Known for warm ambiance and contemporary dishes.",
+    "budget": "Budget (Min): 20,000 NGN",
+    "details": "Nkoyo is a popular restaurant located in Victoria Island, Lagos, known for its warm ambiance and contemporary African dishes. The restaurant offers a cozy and inviting atmosphere, making it a great spot for both casual dining and special occasions. Nkoyo's menu features a variety of flavorful dishes that highlight the rich culinary heritage of Nigeria, including options like grilled meats, seafood, and traditional soups. The restaurant is also praised for its excellent service and attention to detail. With its delicious food and welcoming environment, Nkoyo provides a memorable dining experience that celebrates the best of African cuisine."
+  },
+  {
+    "id": 8,
+    "name": "Craft Gourmet by Lou Baker",
+    "area": "Mainland",
+    "address": "Ikeja, Lagos",
+    "image": "https://plus.unsplash.com/premium_photo-1672242676665-39db88975682?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "description": "Nice pastries and casual dining.",
+    "budget": "Budget (Min): 10,000 NGN", 
+    "details": "Craft Gourmet by Lou Baker is a charming bakery and casual dining spot located in Ikeja, Lagos. Known for its artisanal pastries, breads, and light meals, it offers a cozy and inviting atmosphere perfect for breakfast, brunch, or a casual lunch. The bakery features a variety of freshly baked goods, including croissants, muffins, and cakes, as well as savory options like sandwiches and salads. Craft Gourmet by Lou Baker is also appreciated for its quality coffee and friendly service, making it a popular choice for locals and visitors alike. Whether you're looking for a quick bite or a leisurely meal, Craft Gourmet provides a delightful culinary experience in the heart of Ikeja."
+  },
+  {
+    "id": 9,
+    "name": "The Grill by Delis",
+    "area": "Island",
+    "address": "Victoria Island, Lagos",
+    "image": "https://images.unsplash.com/photo-1600555379765-f82335a7b1b0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "description": "Great steaks and cozy atmosphere.", 
+    "budget": "Budget (Min): 40,000 NGN",
+    "details": "The Grill by Delis is a sophisticated steakhouse located in Victoria Island, Lagos. Known for its premium cuts of meat and elegant ambiance, it offers a refined dining experience for steak lovers. The restaurant features a stylish interior with comfortable seating, making it an ideal spot for both intimate dinners and business meetings. The Grill by Delis prides itself on using high-quality ingredients and expert cooking techniques to deliver perfectly grilled steaks, along with a selection of sides and sauces that complement the main dishes. With its attentive service and upscale atmosphere, The Grill by Delis provides a memorable culinary experience in the heart of Lagos."
+  },
+  {
+    "id": 10,
+    "name": "Bistro 7",
+    "area": "Mainland",
+    "address": "Yaba, Lagos",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+    "description": "Casual bistro for quick meals and coffee.",
+    "budget": "Budget (Min): 15,000 NGN",
+    "details": "Bistro 7 is a charming casual dining spot located in Yaba, Lagos. Known for its relaxed atmosphere and friendly service, it is a popular choice for quick meals and coffee breaks. The bistro offers a diverse menu that includes a variety of dishes ranging from light snacks to hearty meals, catering to different tastes and preferences. Bistro 7 is also appreciated for its quality coffee and pastries, making it an ideal spot for breakfast or an afternoon treat. With its cozy ambiance and affordable prices, Bistro 7 provides a delightful dining experience for locals and visitors alike."
+  }
+
+]

@@ -4,7 +4,7 @@ import Restaurants from "@/components/Sections/Restaurants";
 
 export default function Home() {
   return (
-    <div>
+    <div className="py-10 md:py-10">
       <Hero />
       <Restaurants />
     </div>
