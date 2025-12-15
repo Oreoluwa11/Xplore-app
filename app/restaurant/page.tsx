@@ -1,6 +1,7 @@
 import React from "react";
 import RestaurantsList from "@/components/RestaurantsList";
 import restaurantsData from "@/data/restaurants.json";
+import { Restaurant } from "@/types/restaurant";
 
 interface SearchParams {
   query?: string;
@@ -12,15 +13,19 @@ export default function RestaurantsPage({
 }: {
   searchParams: SearchParams;
 }) {
-  const q = searchParams?.query?.toLowerCase?.() ?? "";
+  const q = searchParams?.query?.toLowerCase() ?? "";
   const area = searchParams?.area ?? "";
 
-  let results = restaurantsData as any[];
-  if (area && (area === "Mainland" || area === "Island")) {
+  let results: Restaurant[] = restaurantsData as unknown as Restaurant[];
+
+  if (area === "Mainland" || area === "Island") {
     results = results.filter((r) => r.area === area);
   }
+
   if (q) {
-    results = results.filter((r) => (r.name + " " + r.address).toLowerCase().includes(q));
+    results = results.filter((r) =>
+      (r.name + " " + r.address).toLowerCase().includes(q)
+    );
   }
 
   return (

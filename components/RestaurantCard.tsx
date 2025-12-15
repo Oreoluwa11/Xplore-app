@@ -21,8 +21,8 @@ const RestaurantCard = ({ restaurant }: { restaurant: Restaurant }) => {
           src={restaurant.image}
           alt={restaurant.name}
           className="w-full h-48 object-cover"
-          width={100}
-          height={100}
+          width={300}
+          height={300}
         />
         <div className="p-4">
           <h2 className="text-xl font-bold">{restaurant.name}</h2>

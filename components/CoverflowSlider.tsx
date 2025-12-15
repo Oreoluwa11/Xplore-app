@@ -54,8 +54,8 @@ const CoverflowSlider = () => {
               src={src}
               alt={`Slide ${index + 1}`}
               className="w-[90%] h-[90%] object-cover rounded-xl"
-              width={100}
-              height={100}
+              width={500}
+              height={500}
             />
           </SwiperSlide>
         ))}
