@@ -3,6 +3,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -49,10 +50,12 @@ const CoverflowSlider = () => {
             key={index}
             className="w-32 h-44 sm:w-40 sm:h-56 md:w-52 md:h-72 bg-transparent flex items-center justify-center"
           >
-            <img
+            <Image
               src={src}
               alt={`Slide ${index + 1}`}
               className="w-[90%] h-[90%] object-cover rounded-xl"
+              width={100}
+              height={100}
             />
           </SwiperSlide>
         ))}

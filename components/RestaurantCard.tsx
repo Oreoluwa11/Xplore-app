@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Restaurant {
   id: number;
@@ -16,10 +17,12 @@ const RestaurantCard = ({ restaurant }: { restaurant: Restaurant }) => {
   return (
     <Link href={`/restaurants/${restaurant.id}`}>
       <div className="bg-white shadow-md rounded-xl overflow-hidden hover:scale-105 transition-transform duration-200 cursor-pointer">
-        <img
+        <Image
           src={restaurant.image}
           alt={restaurant.name}
           className="w-full h-48 object-cover"
+          width={100}
+          height={100}
         />
         <div className="p-4">
           <h2 className="text-xl font-bold">{restaurant.name}</h2>

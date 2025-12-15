@@ -24,7 +24,7 @@ export default function RestaurantsPage({
   }
 
   return (
-    <div className="py-10 md:py-15 px-12 mt-20 bg-card-1">
+    <div className="py-10 md:py-15 px-12 mt-18 bg-card-1">
       <h1 className="text-3xl font-bold mb-6">All Restaurants</h1>
       <RestaurantsList restaurants={results} />
     </div>
