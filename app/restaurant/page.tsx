@@ -3,18 +3,23 @@ import RestaurantsList from "@/components/RestaurantsList";
 import restaurantsData from "@/data/restaurants.json";
 import { Restaurant } from "@/types/restaurant";
 
-interface SearchParams {
-  query?: string;
-  area?: string;
-}
+type SearchParams = {
+  query?: string | string[];
+  area?: string | string[];
+};
 
-export default function RestaurantsPage({
+export default async function RestaurantsPage({
   searchParams,
 }: {
-  searchParams: SearchParams;
+  searchParams: Promise<SearchParams>;
 }) {
-  const q = searchParams?.query?.toLowerCase() ?? "";
-  const area = searchParams?.area ?? "";
+  const sp = await searchParams;
+
+  const queryRaw = Array.isArray(sp.query) ? sp.query[0] : sp.query;
+  const areaRaw = Array.isArray(sp.area) ? sp.area[0] : sp.area;
+
+  const q = (queryRaw ?? "").toLowerCase();
+  const area = areaRaw ?? "";
 
   let results: Restaurant[] = restaurantsData as unknown as Restaurant[];
 
