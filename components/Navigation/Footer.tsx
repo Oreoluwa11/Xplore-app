@@ -34,7 +34,7 @@ const Footer = () => {
             <div className='flex'>
               <p className="font-semibold mr-2">Email: </p>
               <a href="mailto:rahmatanoba@gmail.com" className="text-background">
-                rahmatanoba@gmail.com
+                rahmatanoba1@gmail.com
               </a>
             </div>
           </div>
