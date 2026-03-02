@@ -19,27 +19,36 @@ type Review = {
   comment?: string;
 };
 
-export async function GET(request: NextRequest, context: { params: { id: string } }) {
+export async function GET(
+  _request: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
   try {
-    const id = Number(context.params.id);
+    const { id } = await context.params;
+    const numericId = Number(id);
+
+    if (!Number.isFinite(numericId)) {
+      return NextResponse.json({ error: "Invalid id" }, { status: 400 });
+    }
 
     const restaurantsRaw = await readFile(REST_PATH, "utf8");
     const restaurants: Restaurant[] = JSON.parse(restaurantsRaw);
 
-    const restaurant = restaurants.find((r) => r.id === id);
+    const restaurant = restaurants.find((r) => r.id === numericId);
     if (!restaurant) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }
 
     const reviewsRaw = await readFile(REV_PATH, "utf8");
-    const reviews: Review[] = (JSON.parse(reviewsRaw) as Review[]).filter(
-      (rv) => rv.restaurant_id === id
-    );
+    const reviewsAll: Review[] = JSON.parse(reviewsRaw);
+    const reviews = reviewsAll.filter((rv) => rv.restaurant_id === numericId);
 
     const avgRating =
       reviews.length > 0
         ? Number(
-            (reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length).toFixed(1)
+            (
+              reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length
+            ).toFixed(1)
           )
         : null;
 
