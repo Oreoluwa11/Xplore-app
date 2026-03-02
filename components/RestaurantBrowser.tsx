@@ -31,7 +31,7 @@ export default function RestaurantBrowser() {
   }, [debouncedQuery, area, router]);
 
   const filtered = useMemo<Restaurant[]>(() => {
-    let results: Restaurant[] = restaurantsData;
+    let results: Restaurant[] = restaurantsData as unknown as Restaurant[];
 
     if (area === "Mainland" || area === "Island") {
       results = results.filter((r) => r.area === area);
